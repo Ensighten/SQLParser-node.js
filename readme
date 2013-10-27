@@ -5,9 +5,9 @@ executable in node.js projects to check the validation of SQL query.
 
 Bulding:
 In the top directory, run the following command:
-node-waf configure && node-waf build
+node-gyp configure && node-gyp build
 
-Then we should have our compiled extension in ./build/default/SQLParser.node. 
+Then we should have our compiled extension in ./build/Release/SQLParser.node. 
 
 Test it in node console:
 

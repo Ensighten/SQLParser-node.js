@@ -6,6 +6,13 @@
 #include <boost/spirit/include/qi_no_skip.hpp>
 #include <string>
 
+namespace boost
+{
+void throw_exception(std::exception const & e)  
+{
+}
+}
+
 namespace ensighten
 {
     namespace qi = boost::spirit::qi;
